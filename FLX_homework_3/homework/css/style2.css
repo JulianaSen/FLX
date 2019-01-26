@@ -1,0 +1,129 @@
+body {
+  font-family: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: #EFEFEF; }
+
+header {
+  background: url(../img/header_background_v2.jpg) no-repeat center;
+  background-size: 100%;
+  height: 100vh;
+  text-transform: uppercase;
+  color: #FF571C; }
+  header .logo img {
+    width: 15%; }
+  header nav {
+    position: absolute;
+    left: 550px;
+    top: 20px; }
+    header nav a {
+      color: #FF571C;
+      padding: 10px 100px;
+      text-decoration: none;
+      border-right: 2px solid #CFD8DC;
+      font-weight: 600; }
+      header nav a:last-child {
+        border: none; }
+      header nav a:hover {
+        color: #CFD8DC; }
+  header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px; }
+    header section a {
+      background-color: #0401AC;
+      padding: 10px 50px;
+      color: #fff;
+      text-decoration: none; }
+      header section a:hover {
+        background-color: #04016B; }
+
+main {
+  margin: 20px 180px; }
+  main .toolbar {
+    text-align: right; }
+    main .toolbar input {
+      border: #CFD8DC solid;
+      border-width: thin;
+      padding: 10px;
+      background-color: #EFEFEF; }
+      main .toolbar input::placeholder {
+        padding: 10px;
+        color: #9595B3; }
+  main section h1 {
+    color: #9595B3;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  main section article {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px; }
+  main section div {
+    margin: 5px; }
+    main section div .post-description {
+      padding-bottom: 10px;
+      padding-left: 5px;
+      color: #C3C3D4;
+      border-bottom: #CFD8DC solid;
+      border-bottom-width: thin; }
+    main section div h3 {
+      text-transform: uppercase;
+      color: #607DA9; }
+    main section div p {
+      color: #9595B3;
+      margin-top: 0; }
+    main section div button {
+      margin: 10px 0 0 430px;
+      text-transform: uppercase;
+      background-color: #0401AC;
+      padding: 10px 70px;
+      color: #fff;
+      border: 0; }
+      main section div button:hover {
+        background-color: #04016B; }
+  main .about img {
+    width: 100%; }
+  main .contact-form h1 {
+    margin-top: 50px; }
+  main .contact-form h4 {
+    color: #9595B3;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 0; }
+  main .contact-form form {
+    color: #607DA9;
+    text-align: right; }
+    main .contact-form form .data {
+      display: flex;
+      justify-content: space-between; }
+    main .contact-form form label {
+      display: flex;
+      flex-direction: column; }
+      main .contact-form form label input {
+        border: #CFD8DC solid;
+        border-width: thin;
+        width: 460px;
+        height: 40px;
+        padding: 5px;
+        background-color: #EFEFEF; }
+    main .contact-form form textarea {
+      width: 100%;
+      background-color: #EFEFEF;
+      border: #CFD8DC solid;
+      border-width: thin; }
+    main .contact-form form button {
+      margin-left: 700px;
+      margin: 10px 0 0 430px;
+      text-transform: uppercase;
+      background-color: #0401AC;
+      padding: 10px 70px;
+      color: #fff;
+      border: 0; }
+      main .contact-form form button:hover {
+        background-color: #04016B; }
+
+footer {
+  color: #9595B3; }
+
+/*# sourceMappingURL=style2.css.map */
