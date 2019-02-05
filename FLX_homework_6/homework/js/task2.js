@@ -14,7 +14,7 @@
     var result = amount * (1 - discount / 100);
     var saved = amount - result;
     
-    result = result.toFixed(2);
-    saved = saved.toFixed(2);
+    result = +result.toFixed(2);
+    saved = +saved.toFixed(2);
     alert("Price without discount: "+amount+"\nDiscount:"+discount+"%\nPrice with discount: "+result+"\nSaved: "+saved);
 }());
