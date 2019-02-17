@@ -81,14 +81,21 @@ let user = new UserAccount('Bob');
 user.addCard();
 user.addCard();
 
-let card1 = user.getCardByKey(1);
-let card2 = user.getCardByKey(2);
+let key1 = 1;
+let key2 = 2;
+let putAmount = 500;
+let limit = 800;
+let transfer = 300;
+let takeAmount = 50;
 
-card1.putCredits(500);
-card1.setTransactionLimit(800);
-card1.transferCredits(300, card2);
+let card1 = user.getCardByKey(key1);
+let card2 = user.getCardByKey(key2);
 
-card2.takeCredits(50);
+card1.putCredits(putAmount);
+card1.setTransactionLimit(limit);
+card1.transferCredits(transfer, card2);
+
+card2.takeCredits(takeAmount);
 
 console.log(card1.getCardOptions());
 console.log(card2.getCardOptions()); 
