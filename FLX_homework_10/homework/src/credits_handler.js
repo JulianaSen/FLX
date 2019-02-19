@@ -49,11 +49,11 @@ function userCard(index) {
   }
   
   return {
-    getCardOptions: getCardOptions,
-    putCredits: putCredits,
-    takeCredits: takeCredits,
-    setTransactionLimit: setTransactionLimit,
-    transferCredits: transferCredits  
+    getCardOptions,
+    putCredits,
+    takeCredits,
+    setTransactionLimit,
+    transferCredits  
   }
 }
 
